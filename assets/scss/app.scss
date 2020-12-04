@@ -1,0 +1,39 @@
+@import "variables";
+@import "fonts";
+@import "menu";
+
+
+body {
+  background-color: $background-color;
+  font-family: "Malefic Font";
+  font-weight: normal;
+  font-style: normal;
+  max-width: 670px;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.game-image--wrapper {
+  .game-image {
+  //  box-shadow: 3px 5px 10px rgba(118, 118, 118, 0.10), 3px 5px 10px rgba(118, 118, 118, 0.22) !important;
+  }
+}
+
+.footer {
+  max-width: 670px;
+}
+
+.icon {
+  fill: white;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.VueCarousel-navigation-button {
+  background-color: #bfbfbf !important;
+  color: black !important;
+  border-radius: 5px  !important;
+  opacity: 0.5 !important;
+}
